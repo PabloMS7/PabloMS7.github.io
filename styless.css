@@ -1,3 +1,5 @@
-body{
-  background-color: black;
-}
+
+
+body{background-color: green}
+header{background-color: red}
+footer{background-color: blue}
