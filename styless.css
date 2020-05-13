@@ -1,19 +1,31 @@
 
 
 body{background-color: green}
-header{background-color: red}
+header{background-color:#29492c}
 
 
 footer{
   width: 100%;
   bottom: 0px;
-  background-color: #5D713E ;
+  background-color:#29492c;
   text-align-last: center;
   font-size: .75em;
   text-decoration: none;
   color: grey;
   font-style: italic;}
 
-.content{width: 90%; margin: auto; background-color: black}
+.content{width: 95%; margin: auto; background-color: orange}
 .container-name{background-color: yellow;}
-.container-name-picture{background-color: brown}
+.container-name-picture{background-color: #778e8b}
+.container-projects{background-color: #527cae}
+
+
+
+/*creating a sircular image*/
+.container-name-picture img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2%;
+  border-radius: 80%;}
