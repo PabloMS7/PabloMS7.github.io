@@ -1,8 +1,21 @@
 
 
-body{background-color: green}
+body{background-color: red}
 header{background-color:#29492c}
 
+/*creating a sircular image*/
+.container-name-picture img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 2%;
+  border-radius: 80%;}
+
+.card{
+  display: block;
+  padding: 20px;
+  margin: auto;}
 
 footer{
   width: 100%;
@@ -18,14 +31,3 @@ footer{
 .container-name{background-color: yellow;}
 .container-name-picture{background-color: #778e8b}
 .container-projects{background-color: #527cae}
-
-
-
-/*creating a sircular image*/
-.container-name-picture img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding: 2%;
-  border-radius: 80%;}
