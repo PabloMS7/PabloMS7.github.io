@@ -39,3 +39,27 @@ footer{
 .container-name{background-color: #74b2f0;}
 .container-name-picture{background-color: white;}
 .container-projects{background-color: #527cae; }
+
+
+@media only screen and (min-width: 500px) {
+  .container img{ width: 17%;}
+
+  .flex-container {display: flex; align-items: center;}
+
+  .flex-class{
+    display:flex; align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;}
+
+  .list-group{box-sizing: border-box;flex-basis: 30%;}
+
+  .container-name{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .container-name-picture{
+    box-sizing: border-box;
+    flex-basis: 80%;}
+}
