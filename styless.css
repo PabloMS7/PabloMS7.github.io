@@ -13,8 +13,10 @@ header{background-color:#29492c}
   border-radius: 80%;}
 
 .card{
-  display: block;
-  padding: 20px;
+  display: flex;
+
+  padding: 40px;
+  margin: 0 10px 10px 0;
   margin: auto;}
 
 footer{
