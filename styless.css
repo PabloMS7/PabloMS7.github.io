@@ -16,12 +16,9 @@ p{font-family: 'Sarala', sans-serif;}
   padding: 2%;
   border-radius: 80%;}
 
-.card{
-  display:flex;
-  flex:1 3;
-  flex-direction:column;
-  padding:0 10px 10px 0;
-}
+.card{margin: auto;}
+
+
 
 .container-class{background-color: #617c22}
 
@@ -38,4 +35,4 @@ footer{
 .content{width: 95%; margin: auto; background-color: orange}
 .container-name{background-color: #74b2f0;}
 .container-name-picture{background-color: white;}
-.container-projects{background-color: #527cae}
+.container-projects{background-color: #527cae; }
