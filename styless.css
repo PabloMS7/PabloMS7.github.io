@@ -1,6 +1,4 @@
 
-
-
 body{background-color: 	#1e251d}
 header{background-color:#29492c}
 h1{font-family: 'Bangers', cursive;}
@@ -18,15 +16,20 @@ p{font-family: 'Sarala', sans-serif;}
 
 .card{margin: auto;}
 
-
-
 .container-class{background-color: #617c22}
+
+.moto{background-color: #1e251d; color: white}
+.container img{ width: 31%;}
+
+.car{background-color: #24415f; color: white}
+
+.boat{background-color: #43111b; color: white;}
 
 footer{
   width: 100%;
   bottom: 0px;
   background-color:#29492c;
-  text-align-last: center;
+  text-align: center;
   font-size: .75em;
   text-decoration: none;
   color: grey;
