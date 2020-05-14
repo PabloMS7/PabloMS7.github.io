@@ -1,7 +1,11 @@
 
 
-body{background-color: red}
+
+body{background-color: 	#1e251d}
 header{background-color:#29492c}
+h1{font-family: 'Bangers', cursive;}
+h3, h4{font-family: 'Permanent Marker', cursive;}
+p{font-family: 'Sarala', sans-serif;}
 
 /*creating a sircular image*/
 .container-name-picture img{
@@ -13,11 +17,13 @@ header{background-color:#29492c}
   border-radius: 80%;}
 
 .card{
-  display: flex;
+  display:flex;
+  flex:1 3;
+  flex-direction:column;
+  padding:0 10px 10px 0;
+}
 
-  padding: 40px;
-  margin: 0 10px 10px 0;
-  margin: auto;}
+.container-class{background-color: #617c22}
 
 footer{
   width: 100%;
@@ -30,6 +36,6 @@ footer{
   font-style: italic;}
 
 .content{width: 95%; margin: auto; background-color: orange}
-.container-name{background-color: yellow;}
-.container-name-picture{background-color: #778e8b}
+.container-name{background-color: #74b2f0;}
+.container-name-picture{background-color: white;}
 .container-projects{background-color: #527cae}
