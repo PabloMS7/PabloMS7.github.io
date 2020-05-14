@@ -1,6 +1,6 @@
-
 body{background-color: 	#1e251d}
 header{background-color:#29492c}
+/*Fonts*/
 h1{font-family: 'Bangers', cursive;}
 h3, h4{font-family: 'Permanent Marker', cursive;}
 p{font-family: 'Sarala', sans-serif;}
@@ -15,16 +15,13 @@ p{font-family: 'Sarala', sans-serif;}
   border-radius: 80%;}
 
 .card{margin: auto;}
-
 .container-class{background-color: #617c22}
-
 .moto{background-color: #1e251d; color: white}
 .container img{ width: 31%;}
-
 .car{background-color: #24415f; color: white}
-
 .boat{background-color: #43111b; color: white;}
 
+/*styiling the footer*/
 footer{
   width: 100%;
   bottom: 0px;
@@ -35,12 +32,12 @@ footer{
   color: grey;
   font-style: italic;}
 
-.content{width: 95%; margin: auto; background-color: orange}
+.content{width: 95%; margin: auto; }
 .container-name{background-color: #74b2f0;}
 .container-name-picture{background-color: white;}
 .container-projects{background-color: #527cae; }
 
-
+/*this section containd the arangement  for screens biger than 500px*/
 @media only screen and (min-width: 500px) {
   .container img{ width: 17%;}
 
